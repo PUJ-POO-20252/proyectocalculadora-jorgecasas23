@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "matematicas.h"
+
+int main() {
+    int x = 10;
+    int y = 4;
+    int resultadoSuma = sumar(x,y);
+    int resultadoResta = restar(x,y);
+
+    printf("Suma: %d\n", resultadoSuma);
+    printf("Resta: %d\n", resultadoResta);
+    return 0;
+}

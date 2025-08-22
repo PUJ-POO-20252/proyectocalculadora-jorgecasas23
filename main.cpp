@@ -1,9 +1,12 @@
 #include <stdio.h>
+#include <iostream>
 #include "matematicas.h"
 
 int main() {
-    int x = 10;
-    int y = 4;
+    int x;
+    int y;
+    std::cin >> x;
+    std::cin >> y;
     int resultadoSuma = sumar(x,y);
     int resultadoResta = restar(x,y);
     int resultadoMultiplicacion = multiplicar(x,y);
